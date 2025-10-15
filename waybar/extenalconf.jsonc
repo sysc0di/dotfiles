@@ -1,0 +1,30 @@
+// -*- mode: jsonc -*-
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "margin-left": 5,
+  "margin-right": 5,
+  "margin-top": 2,
+  "margin-bottom": 0,
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "reload_style_on_change": true,
+  "output": ["HDMI-A-1"],
+  "modules-left": ["custom/arch"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+    "group/expand",
+    "network",
+    "group/expand-3",
+    "cpu",
+    "memory",
+    "temperature",
+    "group/expand-4",
+    "clock",
+    "custom/notification"
+  ],
+  //Modules configuration
+  "include": ["~/.config/waybar/modules.json"]
+}

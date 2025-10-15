@@ -1,0 +1,78 @@
+* {
+    font: "JetBrainsMono Nerd Font 12";
+    background: rgba(0,0,0,0);
+    foreground: #CBA6F7;
+    selected: #B4BEFE;
+    active: #A6E3A1;
+    urgent: #F38BA8;
+    border-color: #B4BEFE;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+window {
+    background-color: #1e1e2ee6;
+    border-radius: 20px;
+    padding: 15px;
+    width: 600px;
+    location: center;
+}
+
+mainbox {
+    background-color: transparent;
+    border: 0;
+    children: [inputbar, listview];
+    spacing: 10px;
+}
+
+inputbar {
+    background-color: transparent;
+    border: 0;
+    padding: 6px;
+    text-color: #CBA6F7;
+}
+
+listview {
+    background-color: transparent;
+    border: 0;
+    columns: 1;
+    lines: 8;
+    spacing: 6px;
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+    border: 0;
+    padding: 6px;
+}
+
+element selected {
+    background-color: #bac2de26;
+    border-radius: 12px;
+    text-color: #CBA6F7;
+}
+
+element-icon {
+    size: 32px;
+    background-color: transparent;
+    border: 0;
+    margin: 0 8px 0 0;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: #CBA6F7;
+}
+
+scrollbar {
+    handle-width: 0px;
+}
+
+
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    drun-display-format: "{icon} {name}";
+}
+@theme "/home/yucel/.local/share/rofi/themes/rounded-purple-dark.rasi"
