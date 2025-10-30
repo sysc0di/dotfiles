@@ -1,0 +1,66 @@
+* {
+  background-image: none;
+  box-shadow: none;
+}
+
+window {
+  background-color: rgba(7, 12, 13, 0.8);
+}
+
+button {
+  border-radius: 12px;
+  text-decoration-color: #ffffff;
+  color: #f2e7ff;
+  border: none;
+  background-color: rgba(26, 30, 37, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  margin: 150px 10px;
+  font-family: Nasalization;
+  font-size: 24px;
+  min-width: 240px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+button:focus,
+button:active,
+button:hover {
+  outline-style: none;
+  margin: 120px 10px;
+  background-size: 30%;
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button:focus,
+button:active {
+  border: solid 2px #f2e7ff;
+}
+
+#lock {
+  background-image: image(url("/home/yucel/.config/wlogout/icons/lock.png"));
+}
+
+#logout {
+  background-image: image(url("/home/yucel/.config/wlogout/icons/logout.png"));
+}
+
+#suspend {
+  background-image: image(url("/home/yucel/.config/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+  background-image: image(
+    url("/home/yucel/.config/wlogout/icons/hibernate.png")
+  );
+}
+
+#shutdown {
+  background-image: image(
+    url("/home/yucel/.config/wlogout/icons/shutdown.png")
+  );
+}
+
+#reboot {
+  background-image: image(url("/home/yucel/.config/wlogout/icons/reboot.png"));
+}
