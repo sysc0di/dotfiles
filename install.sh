@@ -17,8 +17,8 @@ sleep 1
 # Packages to install
 PACKAGES=(
     cava fastfetch cpufetch fish hyprland hypridle hyprlock hyprsunset swww
-    kitty rofi nwg-drawer nwg-look swaync waybar wlogout starship
-    network-manager-applet blueman ttf-iosevka-nerd indicator-sound-switcher
+    kitty rofi nwg-drawer nwg-look swaync waybar wlogout starship ddcui peaclock tlp tlpui
+    network-manager-applet blueman ttf-iosevka-nerd indicator-sound-switcher zen-browser-bin grub-customizer insomnia 
 )
 
 echo "→ Installing packages..."
